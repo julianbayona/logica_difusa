@@ -177,9 +177,3 @@ http://127.0.0.1:5000
 ```
 
 ---
-
-## 📄 7. Notas Finales
-- La lógica difusa puede ampliarse con más reglas.
-- Flask permite escalar el proyecto fácilmente.
-- Para producción, no usar `debug=True`.
-
