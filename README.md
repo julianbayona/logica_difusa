@@ -126,16 +126,16 @@ El sistema calcula la velocidad como salida y genera gráficos que representan l
 #### Gráficos Generados
 
 1. **Funciones de Membresía - Temperatura**
-   ![Funciones de Membresía - Temperatura](static/mf_temp_TIMESTAMP.png)
+   ![Funciones de Membresía - Temperatura](static/mf_temp_1763237140.png)
 
 2. **Funciones de Membresía - Humedad**
-   ![Funciones de Membresía - Humedad](static/mf_hum_TIMESTAMP.png)
+   ![Funciones de Membresía - Humedad](static/mf_hum_1763237140.png)
 
 3. **Funciones de Membresía - Velocidad**
-   ![Funciones de Membresía - Velocidad](static/mf_vel_TIMESTAMP.png)
+   ![Funciones de Membresía - Velocidad](static/mf_vel_1763237140.png)
 
 4. **Salida - Velocidad (Defuzzificación)**
-   ![Salida - Velocidad](static/output_TIMESTAMP.png)
+   ![Salida - Velocidad](static/output_1763237140.png)
 
 ## ▶️ 6. Guía de Ejecución
 
