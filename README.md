@@ -112,6 +112,31 @@ except Exception as e:
 
 ---
 
+
+
+## Ejemplo de Uso
+
+### Valores de Entrada
+- **Temperatura:** 28°C  
+- **Humedad:** 45%
+
+### Resultado
+El sistema calcula la velocidad como salida y genera gráficos que representan las funciones de membresía y el proceso de defuzzificación.
+
+#### Gráficos Generados
+
+1. **Funciones de Membresía - Temperatura**
+   ![Funciones de Membresía - Temperatura](static/mf_temp_TIMESTAMP.png)
+
+2. **Funciones de Membresía - Humedad**
+   ![Funciones de Membresía - Humedad](static/mf_hum_TIMESTAMP.png)
+
+3. **Funciones de Membresía - Velocidad**
+   ![Funciones de Membresía - Velocidad](static/mf_vel_TIMESTAMP.png)
+
+4. **Salida - Velocidad (Defuzzificación)**
+   ![Salida - Velocidad](static/output_TIMESTAMP.png)
+
 ## ▶️ 6. Guía de Ejecución
 
 ### **1. Crear entorno virtual**
