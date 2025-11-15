@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resultado - Control Difuso</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+    <div class="container py-5">
+        <h1 class="mb-4">Resultado</h1>
+        <div class="card mb-4">
+            <div class="card-body">
+                <p>Temperatura: <strong>{{ temperatura }} °C</strong></p>
+                <p>Humedad: <strong>{{ humedad }} %</strong></p>
+                <p>Velocidad recomendada: <strong>{{ velocidad | round(2) }} %</strong></p>
+            </div>
+        </div>
+
+
+        <h3>Funciones de membresía</h3>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <img src="/{{ mf_temp }}" alt="MF Temperatura" class="img-fluid">
+            </div>
+            <div class="col-md-6 mb-3">
+                <img src="/{{ mf_hum }}" alt="MF Humedad" class="img-fluid">
+            </div>
+            <div class="col-md-6 mb-3">
+                <img src="/{{ mf_vel }}" alt="MF Velocidad" class="img-fluid">
+            </div>
+            <div class="col-md-6 mb-3">
+                <img src="/{{ out_img }}" alt="Defuzz" class="img-fluid">
+            </div>
+        </div>
+
+
+        <a href="/" class="btn btn-secondary">Calcular otro valor</a>
+    </div>
+</body>
+
+</html>
